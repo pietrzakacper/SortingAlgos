@@ -3,5 +3,5 @@ Sorting Algorithms
 =========================================
 
 This is my little sorting algorithm project.
-Just some slow implementation of QuickSort.
-There is also little comrasion of two sorting algorithms.
+Just a slow implementation of QuickSort.
+There is also little comprasion of two sorting algorithms.
