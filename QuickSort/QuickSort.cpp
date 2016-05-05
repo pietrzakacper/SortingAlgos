@@ -14,17 +14,18 @@ void QuickSort(int *array, int left, int right)
 {
 	if (left < right)
 	{
-		int wall = left;
+		int pivot = rand()%(right+1-left) +left;
+		swap(array[pivot], array[right]);
+		int j = left;
 		for (int i = left; i < right; i++)
 		{
 			if (array[i] < array[right])
-				swap(array[wall++], array[i]);
+				swap(array[j++], array[i]);
 		}
-		swap(array[right], array[wall]);
-		QuickSort(array, left, wall - 1);
-		QuickSort(array, wall + 1, right);
+		swap(array[right], array[j]);
+		QuickSort(array, left, j - 1);
+		QuickSort(array, j + 1, right);
 	}
-
 }
 
 
