@@ -256,3 +256,5 @@ paket-files/
 *.filters
 *.vcxproj
 *.filters
+QuickSort.vcxproj
+QuickSort.vcxproj.filters
