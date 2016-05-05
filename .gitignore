@@ -254,3 +254,5 @@ paket-files/
 *.vcxproj
 *.vcxproj.filters
 *.filters
+*.vcxproj
+*.filters
